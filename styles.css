@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+main{
+    width: 95%;
+    background-color: rgba(206, 209, 209, 0.749);
+    margin: 1rem auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+main .image{
+    width: 70%;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+figcaption{
+    text-align: center;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+ul{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.history{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hommage{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.conclusion{
+    font-style: italic;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
+.slice{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-align: center;
+}    
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.term{
+    padding-bottom: 2rem;
+}
